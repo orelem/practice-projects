@@ -24,6 +24,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    cursor: not-allowed;
+}
+
 .header, .footer {
     background-color: #1F2937;
 }
@@ -38,6 +42,15 @@ button {
     color: #E5E7EB;
     padding: 12px 24px;
     border-radius: 10px;
+    box-shadow: 2px 2px 8px 2px rgba(9,29,61,0.75);
+}
+
+button:hover {
+    cursor: not-allowed;
+}
+
+button:active {
+    box-shadow: 2px 2px 8px 2px rgba(9,29,61,0.75) inset;
 }
 
 /* HEADER SECTION*/
