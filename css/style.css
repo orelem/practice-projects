@@ -1,23 +1,103 @@
-* {
-    box-sizing: border-box;
-    margin: 0 auto;
+/* GENERAL */
+body {
+    display: flex;
+    flex-direction: column;
     padding: 0;
-    font-family: roboto, sans-serif;
-    /* border: 1px solid red; */
-    /* Above is to get an active view of the div border lines (to be used in conjunction with DevTools) */
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* GENERAL */
+img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 12px;
+}
+
+a {
+    text-decoration: none;
+}
 
 .header, .footer {
     background-color: #1F2937;
 }
 
-/* HEADER SECTION*/
-    /* Nav Section */
+a, .hero-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+/* HEADER SECTION*/
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    width: 70%;
+    margin: auto;
+}
+    /* Nav Section */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
     /* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 86px 0 86px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1;
+}
+
+.left button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 650px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 30% 70%;
+}
 
 
 /* PROD EXAMPLES SECTION */
