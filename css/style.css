@@ -28,18 +28,17 @@ a:hover {
     cursor: not-allowed;
 }
 
-.header, .footer {
+.header, footer {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
-a, .hero-para {
+a, p, button {
     font-size: 18px;
     color: #E5E7EB;
 }
 
 button {
-    font-size: 18px;
-    color: #E5E7EB;
     padding: 12px 24px;
     border-radius: 10px;
     box-shadow: 2px 2px 8px 2px rgba(9,29,61,0.75);
@@ -220,4 +219,11 @@ button:active {
     border: 2px solid #E5E7EB;
     background-color: #3882F6;
     color: #E5E7EB;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 36px;
 }
