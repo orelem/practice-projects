@@ -7,6 +7,12 @@
     /* Above is to get an active view of the div border lines (to be used in conjunction with DevTools) */
 }
 
+/* GENERAL */
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
 /* HEADER SECTION*/
     /* Nav Section */
 
