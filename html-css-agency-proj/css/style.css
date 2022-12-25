@@ -193,8 +193,8 @@ button:active {
     display: flex;
     align-items: center;
     padding: 20px 0;
-    /* gap: 20px; */
     border-radius: 10px;
+    width: 70%;
 }
 
 .nl-text {
@@ -215,7 +215,7 @@ button:active {
 
 .sub {
     flex: 1;
-    margin: 0 10% 0 10%
+    margin-left: 10%;
 }
 
 .sub button {
