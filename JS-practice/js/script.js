@@ -94,3 +94,23 @@
 // 5. null becomes 0 after the numeric conversion.
 // 6. undefined becomes NaN after the numeric conversion.
 // 7. Space characters are trimmed off string start and end when a string is converted to a number. Here the whole string consists of space characters, such as \t, \n and a “regular” space between them. So, similarly to an empty string, it becomes 0.
+
+
+// Fix the addition (result goal = 3)
+
+// Original:
+// let a = prompt("First number?", 1);
+// let b = prompt("Second number?", 2);
+
+// alert(a + b); // 12
+
+// Fix 1:
+// let a = prompt("First number?", 1);
+// let b = prompt("Second number?", 2);
+
+// alert(+a + +b); // 3
+
+let a = +prompt("First number?", 1);
+let b = +prompt("Second number?", 2);
+
+alert(a + b); // 12
