@@ -41,3 +41,12 @@
 // alert(c);
 // alert(d);
 // Explanation: ++a (prefix form) returns the new value while a++ (postfix form) returns the old value
+
+
+// Assignment result
+
+let a = 2;
+
+let x = 1 + (a *= 2);
+
+alert(x);
