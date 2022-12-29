@@ -135,7 +135,23 @@
 // let b = 7 * a;
 // console.log(b);
 
-const max = 57;
-let actual = max - 13;
-let percentage = actual / max;
-console.log(percentage);
+// const max = 57;
+// let actual = max - 13;
+// let percentage = actual / max;
+// console.log(percentage);
+
+
+// Fundamentals Part 2
+
+// Multiline strings (using back ticks)
+// const output = `This is
+// a test
+// to see
+// what would
+// happen`;
+
+// alert(output);
+
+// Multiline strings from normal strings (single/ double quote)
+// const output = "this is \na test \nto see \nwhat would \nhappen"
+// alert(output);
