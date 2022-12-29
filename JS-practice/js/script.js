@@ -110,7 +110,32 @@
 
 // alert(+a + +b); // 3
 
-let a = +prompt("First number?", 1);
-let b = +prompt("Second number?", 2);
+// let a = +prompt("First number?", 1);
+// let b = +prompt("Second number?", 2);
 
-alert(a + b); // 12
+// alert(a + b); // 3
+
+// Explanation: function starts off as a string and to convert it to numbers that can work with each other either "Number()" or "+"(prefix) need to be added to the function
+
+
+// Odin Project - JavaScript
+
+// Fundamentals Part 1
+
+// console.log(20 + 30);
+
+// console.log(1 + 2 + 3 + 4 + 5 + 6);
+
+// let x = (4 + 6 + 9) / 77;
+// console.log(x);
+
+// let a = 10;
+// console.log(a);
+// console.log(9 * a);
+// let b = 7 * a;
+// console.log(b);
+
+const max = 57;
+let actual = max - 13;
+let percentage = actual / max;
+console.log(percentage);
